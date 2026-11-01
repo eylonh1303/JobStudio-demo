@@ -28,7 +28,7 @@ flowchart LR
 ```
 
 1. **Search.** It scans a watchlist of ~440 company career feeds, ~680 other career pages, and the main Israeli and international job boards, then removes everything it already knows about.
-2. **Judge.** An AI agent reads each new posting against my criteria (student eligibility, role type, no minimum-grade demands, location) and decides whether it is a fit and which tier it belongs to.
+2. **Judge.** An AI agent reads each new posting against my criteria (student eligibility, role type, location) and decides whether it is a fit and which tier it belongs to.
 3. **Rate.** Every fit gets 1-5 stars: how good the role is for a CS student in general, and how well it matches my skills and goals, with a one-line reason.
 4. **Tailor.** A one-page CV is built **immediately** for every fit, using only my real skills and projects. It reorders and emphasizes what matters for that job and never invents anything. The result is exported to PDF.
 5. **Message me.** The job, its stars, the link and the finished PDF arrive on my phone within minutes.
